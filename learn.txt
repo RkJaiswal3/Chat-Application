@@ -1,5 +1,0 @@
-1. react icon for icon
-2. cloudinary to store images file and fetch it from there.(for that cloudinary upload image from documentation)
-3. color picker
-4. axios for inserting data into database from frontend side so we use npm in axios to be installing
-fadfasg
