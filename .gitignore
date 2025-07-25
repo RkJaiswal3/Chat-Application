@@ -9,4 +9,4 @@
 # Ignore IDE/editor config
 .vscode/
   
-learn.text/
+/learn.text
