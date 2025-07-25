@@ -52,7 +52,7 @@ export const Sidebar = () => {
       //   setAllUser(conversationUser);
       // })
       socketConnection.on('conversation', (data) => {
-        console.log("Conversation Data: ", data);
+        // console.log("Conversation Data: ", data);
 
         const conversationUser = data.map((conversation, index) => {
           const otherUser = conversation.sender._id === user._id

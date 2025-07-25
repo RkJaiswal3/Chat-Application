@@ -72,7 +72,7 @@ export const RegisterPage = () => {
     } catch (error) {
       toast.error(error?.response?.data?.message)
     }
-    console.log("Data", data)
+    // console.log("Data", data)
   }
 
   return (

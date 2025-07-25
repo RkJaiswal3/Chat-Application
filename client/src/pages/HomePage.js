@@ -17,7 +17,7 @@ export const HomePage = () => {
   const location = useLocation();
 
 
-  console.log("User", user)
+  // console.log("User", user)
   const fetchUserDetails = async () => {
     try {
       const URL = `${process.env.REACT_APP_BACKEND_URL}/api/user_details`;
